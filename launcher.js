@@ -4,7 +4,7 @@ class Launcher{
         bodyA:stoneObj.body,
         pointB:pointB,
         stiffness:0.004,
-        length:10,
+        length:30,
     }
     this.pointB=pointB
     this.launcher = Constraint.create(options);
